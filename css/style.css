@@ -1,0 +1,30 @@
+body{
+  background-color:#000;
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+}
+html, body {
+  margin-top: 10px;
+}
+p,h3, a {
+  color: #fff;
+  text-decoration: none;
+}
+p,a:hover{
+  color: #0f0;  
+}
+.no-hover{
+  pointer-events: none;
+}
+.doprava_kamo{
+  float: right;
+  position: absolute;
+  margin-left: 300px;
+  margin-top: -60px;
+  margin-right: 300px;
+}
+.indent{
+  margin-left: 20px;
+}
+.selected_member{
+  color:#0f0;
+}
